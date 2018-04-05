@@ -11,3 +11,11 @@ article
 {
     width: 55%;
 }
+img
+{
+    width: 10em;
+}
+figure
+{
+    margin: 0;
+}
