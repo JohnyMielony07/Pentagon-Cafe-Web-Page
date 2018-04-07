@@ -1,13 +1,37 @@
 html
 {
     font-size: 1.4em;
+    margin:0;
+    padding: 0;
+}
+body
+{
+    margin:0;
+    padding: 0;
 }
 
 .main-container, .header-container
 {
     margin:0 15% ;
-    background-color: aqua;
+    
+    
 }
+nav, ul
+{
+    margin:0;
+    padding: 0;
+}
+nav
+{
+    margin-left: auto;
+}
+.background
+{
+    width:100%;
+    background-color: aqua;
+    
+}
+
 article
 {
     width: 55%;
@@ -39,12 +63,12 @@ ul
 {
     list-style-type: none;
     text-decoration: none;
-    padding:0 1em;
+    font-size: 1.4em;
 }
 li
 {
     
-    padding: 1em;
+    padding: 0.2em;
 }
 header nav a
 {
