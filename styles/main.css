@@ -32,18 +32,27 @@ nav
     
 }
 
-article
-{
-    width: 55%;
-}
-img
+
+.icon-img img
 {
     width: 6em;
     padding-right: 2em;
 }
+.img-top img
+{
+    display: block;   
+    width: 900px;
+    margin: 2em auto 0;
+
+}
+.img-top
+{
+    margin-left: auto;
+}
 figure
 {
-    margin: 0;
+    padding: 0;
+    margin:0;
 }
 header, ul, .branding
 {
