@@ -42,12 +42,31 @@ nav
 {
     display: block;   
     width: 900px;
-    margin: 2em auto 0;
+    margin: 0 auto 0;
 
 }
 .img-top
 {
     margin-left: auto;
+}
+.person img
+{
+    width: 170px;
+    height: 160px;
+    margin: 0 0.4em 0 0;
+    
+}
+.person
+{
+    display: flex;
+    flex-flow: row wrap;
+   margin: 1em 0;
+
+}
+.person p
+{
+    width: 80%;
+    
 }
 figure
 {
