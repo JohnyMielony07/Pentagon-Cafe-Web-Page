@@ -102,3 +102,16 @@ header nav a
 {
     text-decoration: none;
 }
+
+.projects-containers
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.projects-containers p, .projects-containers img
+{
+    width: 300px;
+}
