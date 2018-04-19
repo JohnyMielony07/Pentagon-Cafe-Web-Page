@@ -9,17 +9,23 @@ body
     margin:0;
     padding: 0;
 }
-
+.title
+{
+    font-size: 0.8em;
+}
 .main-container, .header-container
 {
     margin:0 15% ;
     
     
 }
+
 nav, ul
 {
     margin:0;
     padding: 0;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 nav
 {
@@ -29,7 +35,7 @@ nav
 {
     width:100%;
     background-color: aqua;
-    
+    box-shadow: 0 0 10px #777777;
 }
 
 
@@ -37,6 +43,10 @@ nav
 {
     width: 6em;
     padding-right: 2em;
+}
+.projects-container figure
+{
+    box-shadow: 0 0 10px #777777;
 }
 .img-top img
 {
@@ -103,7 +113,7 @@ header nav a
     text-decoration: none;
 }
 
-.projects-containers
+.projects-container
 {
     display: flex;
     flex-direction: row;
@@ -111,7 +121,11 @@ header nav a
     justify-content: space-around;
     background-color: aqua;
 }
-.projects-containers p, .projects-containers img
+.projects-container p, .projects-container img
 {
     width: 300px;
+}
+.projects-container h3
+{
+    text-align: center;
 }
