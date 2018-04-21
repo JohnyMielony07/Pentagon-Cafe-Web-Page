@@ -16,11 +16,19 @@ body
 .main-container, .header-container
 {
     margin:0 15% ;
-    
-    
 }
 
-nav, ul
+.hamburger-container
+{
+   display: none;
+    margin:auto;
+    
+}
+.hamburger-container button
+{
+    margin: 5px;
+}
+.top-nav, ul
 {
     margin:0;
     padding: 0;
@@ -108,9 +116,13 @@ li
     
     padding: 0.2em;
 }
-header nav a
+header .top-nav a
 {
     text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
 }
 
 .projects-container
@@ -129,3 +141,37 @@ header nav a
 {
     text-align: center;
 }
+@media screen and (max-width: 760px) {
+  .hamburger-container
+{
+   visibility: visible;
+    margin:auto;
+    display: block;
+}
+   .top-nav
+    {
+        
+        display: none;
+    }
+    .icon-img
+    {
+        margin: auto;
+        padding:0;
+    }
+    .icon-img img
+    {
+        width: 6em;
+        padding-right: 0em;
+    }
+    
+}
+
+@media screen and (max-width: 501px)
+{
+    .title
+    {
+        display: none;
+    }
+}
+    
+    
