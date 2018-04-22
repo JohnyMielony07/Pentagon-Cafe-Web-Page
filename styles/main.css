@@ -35,9 +35,10 @@ body
    cursor:pointer;
 }
 
-.site-menu, ul
+.site-menu, ul, a:visited
 {
-     
+    font-family: sans-serif;
+     color: black;
     background-color: aqua;
     display: none;
 }
@@ -112,7 +113,7 @@ figure
     padding: 0;
     margin:0;
 }
-header, ul, .branding
+header, .nav-list, .branding
 {
     display: flex;
     flex-direction: row;
@@ -163,7 +164,52 @@ a:hover
     text-align: center;
 }
 
+.contact-icons img
+{
+width: 50px;    
+}
+.contact-icons
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.box-form
+{
+    display: flex;
+     margin: auto;
+}
+
+fieldset
+{
+    width: 60%;
+    border:1px solid #BEBEC6;
+    border-radius: 10px;
+}
+article
+{
+    margin-bottom: 30px;
+}
+
+input[type = "submit"]
+{
+  margin: 15px auto;   
+    width: 100px;
+    height: 30px;
+}
+
+input[type = "email"]
+{
+    margin: 5px auto;
+    width: 250px;
+    height: 25px;
+}
+
+.form-container p
+{
+    text-align: center;
+}
 @media screen and (max-width: 760px) {
   .hamburger-container
 {
