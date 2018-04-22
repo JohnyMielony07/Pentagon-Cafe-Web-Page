@@ -34,46 +34,14 @@ body
 {
    cursor:pointer;
 }
-.site-menu ul
+
+.site-menu, ul
 {
-    padding: 0;
-    list-style: none;
-    margin: 0 10px;
-    display:  flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-}
-.site-menu
-{
-    display:flex;
-    box-sizing: border-box;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 300px;
-    padding-bottom: 10px;
+     
     background-color: aqua;
-    visibility: hidden;
+    display: none;
 }
-.site-menu a
-{
-    display:  flex;
-    padding: 10px;
-    box-sizing: border-box;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-.site-menu li
-{
-    background: #ffffff;
-    margin-top: 20px;
-    color: #696e9e;
-    border-radius:  5px;
-    flex-basis: 100%;
-    display: flex;
-    height: 30px;
-}
+
 .top-nav, ul
 {
     margin:0;
@@ -97,7 +65,7 @@ nav
 }
 .hide
 {
-    visibility: hidden;
+    display: none;
 }
 
 .icon-img img
@@ -169,7 +137,7 @@ li
     
     padding: 0.2em;
 }
-header .top-nav a
+header .top-nav a, a
 {
     text-decoration: none;
 }
